@@ -1,9 +1,10 @@
-import 'package:ecommerce_app/home_page.dart';
+import 'package:ecommerce_app/items.dart';
+
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
+  runApp(const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: HomePage(),
+    home: Items(),
   ));
 }
